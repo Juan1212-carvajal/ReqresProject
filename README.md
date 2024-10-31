@@ -1,10 +1,10 @@
 # ReqresProject
 
-Este proyecto implementa pruebas de automatización para servicios REST, desarrollado con **Serenity BDD** y gestionado en **Gradle**.
+Este proyecto implementa pruebas de automatización para servicios REST y pruebas web, desarrollado con **Serenity BDD** y gestionado en **Gradle**.
 
 ## Descripción
 
-**ReqresProject** es un conjunto de pruebas automatizadas que verifica la funcionalidad de los servicios de la API ReqRes, permitiendo pruebas de creación, actualización y eliminación de usuarios, entre otros. Las pruebas están desarrolladas con el patrón **Screenplay** de Serenity, usando Gherkin para una mayor legibilidad de los escenarios y pasos de prueba.
+**ReqresProject** es un conjunto de pruebas automatizadas que verifica la funcionalidad de los servicios de la API ReqRes, permitiendo pruebas de creación, actualización y eliminación de usuarios, entre otros. Además, se realizaron pruebas en la página web de la tienda [https://www.floristeriamundoflor.com](https://www.floristeriamundoflor.com), validando los criterios de aceptación relacionados con la visualización y gestión de productos. Las pruebas están desarrolladas con el patrón **Screenplay** de Serenity, usando Gherkin para unalegibilidad de los escenarios y casos de prueba.
 
 ## Requisitos
 
@@ -43,7 +43,6 @@ dependencies {
     implementation "net.serenity-bdd:serenity-screenplay:$serenityVersion"
     implementation "net.serenity-bdd:serenity-screenplay-rest:$serenityVersion"
     implementation "net.serenity-bdd:serenity-cucumber:$serenityCucumberVersion"
-
     testImplementation 'org.assertj:assertj-core:3.24.2'
     testImplementation 'org.slf4j:slf4j-simple:1.7.36'
 }

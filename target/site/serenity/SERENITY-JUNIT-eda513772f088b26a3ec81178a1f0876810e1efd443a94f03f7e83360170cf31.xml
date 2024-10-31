@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="3" name="Visualizacion de productos en la categoria Agradecimientos" skipped="0" tests="3" time="43.67" timestamp="2024-10-30 07:33:45"><testcase name="Visualizacion de productos de la categoria"><failure message="Expected condition failed: waiting for By.xpath: //a[text()='Botella de vino gato negro 750 ml'] to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.25.0', revision: '8a8aea2337'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //a[text()='Botella de vino gato negro 750 ml'] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //a[text()='Botella de vino gato negro 750 ml'] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown&#13;
+co.com.porvenir.certification.utest.stepdefinitions.ui.VisualizacionProductosSteps.deClicEnLaOpcionAnadirAlCarritoParaElSegundoProducto(VisualizacionProductosSteps.java:61)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase name="Anadir dos productos de la categoria Agradecimientos al carrito de compras"><failure message="Expected condition failed: waiting for By.xpath: //a[@href='https://www.floristeriamundoflor.com/product-category/agradecimientos/'][contains(text(), 'Agradecimientos')] to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.25.0', revision: '8a8aea2337'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //a[@href='https://www.floristeriamundoflor.com/product-category/agradecimientos/'][contains(text(), 'Agradecimientos')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //a[@href='https://www.floristeriamundoflor.com/product-category/agradecimientos/'][contains(text(), 'Agradecimientos')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown&#13;
+co.com.porvenir.certification.utest.tasks.SeleccionarCategoria.performAs(SeleccionarCategoria.java:23)&#13;
+co.com.porvenir.certification.utest.stepdefinitions.ui.VisualizacionProductosSteps.seleccionoLaCategoria(VisualizacionProductosSteps.java:45)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase name="Validar que los productos se muestran correctamente en la opcion Carro"><failure message="Expected condition failed: waiting for By.xpath: //a[@href='https://www.floristeriamundoflor.com/product-category/agradecimientos/'][contains(text(), 'Agradecimientos')] to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.25.0', revision: '8a8aea2337'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //a[@href='https://www.floristeriamundoflor.com/product-category/agradecimientos/'][contains(text(), 'Agradecimientos')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //a[@href='https://www.floristeriamundoflor.com/product-category/agradecimientos/'][contains(text(), 'Agradecimientos')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown&#13;
+co.com.porvenir.certification.utest.tasks.SeleccionarCategoria.performAs(SeleccionarCategoria.java:23)&#13;
+co.com.porvenir.certification.utest.stepdefinitions.ui.VisualizacionProductosSteps.seleccionoLaCategoria(VisualizacionProductosSteps.java:45)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

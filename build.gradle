@@ -1,0 +1,38 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+version '1.0-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.89")
+    }
+}
+
+ext {
+    serenityVersion = '4.2.6'
+    serenityCucumberVersion = '4.2.6'
+}
+
+dependencies {
+    implementation 'junit:junit:4.13.2'
+    implementation "net.serenity-bdd:serenity-core:$serenityVersion"
+    implementation "net.serenity-bdd:serenity-junit:$serenityVersion"
+    implementation "net.serenity-bdd:serenity-screenplay:$serenityVersion"
+    implementation "net.serenity-bdd:serenity-screenplay-rest:$serenityVersion"
+    implementation "net.serenity-bdd:serenity-cucumber:$serenityCucumberVersion"
+    testImplementation 'org.assertj:assertj-core:3.24.2'
+    testImplementation 'org.slf4j:slf4j-simple:1.7.36'
+    testImplementation 'io.karatelabs:karate-junit5:1.5.0'
+}
+
+gradle.startParameter.continueOnFailure = true
